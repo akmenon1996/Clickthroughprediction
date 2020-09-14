@@ -1,7 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cba92da3-cd12-4de6-b3d9-1b86f7d19356" name="Default Changelist" comment="&quot;Initial Commit&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hTAUiBywWIlGr1b31zgn4GeNII" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cba92da3-cd12-4de6-b3d9-1b86f7d19356" name="Default Changelist" comment="" />
+      <created>1600024725691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600024725691</updated>
+      <workItem from="1600024736880" duration="1503000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;Initial Commit&quot;">
+      <created>1600024963115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600024963115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Initial Commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Initial Commit&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2104" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600024803898">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2104" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600024803898" />
+    <state x="2389" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600025610085">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2389" y="349" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600025610085" />
+    <state x="2219" y="124" key="CommitChangelistDialog2" timestamp="1600025174185">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2219" y="124" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600024962993" />
+    <state x="2219" y="124" key="CommitChangelistDialog2/1680.0.1920.1080/0.23.1680.1027/-1920.23.1920.1057@1680.0.1920.1080" timestamp="1600025174185" />
+    <state x="2481" y="444" key="Github.ShareDialog" timestamp="1600024867788">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2481" y="444" key="Github.ShareDialog/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600024867788" />
+    <state x="2399" y="245" key="Github.UntrackedFilesDialog" timestamp="1600024882466">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2399" y="245" key="Github.UntrackedFilesDialog/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600024882466" />
+    <state x="2149" y="179" key="SettingsEditor" timestamp="1600025166918">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2149" y="179" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600025166918" />
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2" timestamp="1600025333819">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600024964779" />
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.23.1680.1027/-1920.23.1920.1057@1680.0.1920.1080" timestamp="1600025333819" />
   </component>
 </project>
