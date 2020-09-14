@@ -1,2 +1,3 @@
 # Project exclude paths
 /click_through_env/
+/src/notebooks/.ipynb_checkpoints/
