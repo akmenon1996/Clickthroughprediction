@@ -59,3 +59,5 @@ python {prog_name} <filename> <model_filename>
 ```
 
 The resulting log with the proabilities will get saved in the logs folder under /src/scripts. 
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
