@@ -2,6 +2,7 @@ import pandas as pd
 import sys
 import joblib
 import os
+from termcolor import colored
 from feature_engineering import feature_engineer
 
 
@@ -27,6 +28,6 @@ if __name__ == "__main__":
             """.format(prog_name=sys.argv[0])
 
     if len(sys.argv) != 3:
-        print(USAGE)
+        print(colored(USAGE,'red'))
     else:
         main()
