@@ -40,11 +40,12 @@ def xgboost_classifier(x_train_res, y_train_res, x_test, y_test):
     os.makedirs(os.path.dirname("models/models.txt"),exist_ok=True)
     filename = "models/xgboost_classifier.model"
     joblib.dump(xgbc,filename)
-
-
+    return filename
 
 
 def modelling(x_train_res, y_train_res, x_test, y_test):
-    xgbc_model = xgboost_classifier(x_train_res,y_train_res, x_test, y_test)
+    model_file = xgboost_classifier(x_train_res,y_train_res, x_test, y_test)
     print("Done!")
+    return model_file
+
 

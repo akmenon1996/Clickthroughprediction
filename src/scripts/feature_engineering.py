@@ -43,15 +43,15 @@ def numerical_standarization(x_data):
     x_data_numeric_normalized = pd.DataFrame(x_data_numeric_normalized, columns=columns)
     x_data_numeric_normalized_significant = x_data_numeric_normalized[['Income', 'Monthly Premium Auto',
                                                                        'Total Claim Amount']]
-    return x_data_numeric_normalized_significant
+    return x_data_numeric_normalized_significant,ss
 
 
 def feature_engineer(data):
     data.Response = data.Response.apply(lambda x: 0 if x == 'No' else 1)
     x_data_all = data.drop(['Response'], axis=1)
     y_data = data['Response']
-    x_data_numeric_normalized_significant = numerical_standarization(x_data_all)
+    x_data_numeric_normalized_significant,ss = numerical_standarization(x_data_all)
     cat_df_significant = categorical_encoding(x_data_all)
     merged_data = merge_data(x_data_numeric_normalized_significant,cat_df_significant,y_data)
-    return merged_data
+    return merged_data,ss
 
