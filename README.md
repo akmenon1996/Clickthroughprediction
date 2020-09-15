@@ -50,7 +50,7 @@ cd src/scripts
 python train_model.py <filename>
 ```
 
-[](media/result.gif)
+[Output](media/result.gif)
 
 ### To predict on new data after training. 
 ```console
