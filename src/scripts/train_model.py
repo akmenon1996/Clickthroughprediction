@@ -12,11 +12,14 @@ def read_file(file):
 
 
 def main():
+    """
+    Pipeline to training given file to predict Click Through Probability of a customer.
+    """
     filename = sys.argv[1]
     print(colored("########READING DATA########",'blue'))
     data = read_file(filename)
     print(colored("########PERFORMING FEATURE ENGINEERING########",'blue'))
-    feature_engineered_data,ss = feature_engineer(data)
+    feature_engineered_data= feature_engineer(data)
     print(colored("########PERFORMING DATA ENGINEERING########",'blue'))
     x_train_res, y_train_res, x_test, y_test = data_engineer(feature_engineered_data)
     print(colored("########PERFORMING DATA MODELLING########",'blue'))

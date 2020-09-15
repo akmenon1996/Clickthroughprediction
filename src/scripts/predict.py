@@ -8,13 +8,16 @@ from feature_engineering import feature_engineer
 
 
 def main():
+    """
+    Pipeline to predict Click Through Probability of a given customer.
+    """
     filename = sys.argv[1]
     model = sys.argv[2]
     data = pd.read_csv(filename)
     predict(data)
 
 def predict(data,model):
-    feature_engineered_data, ss = feature_engineer(data)
+    feature_engineered_data = feature_engineer(data)
     xgboost_model = joblib.load(model)
     data['Click_Probability'] = [i[1] for i in xgboost_model.predict_proba(feature_engineered_data.drop('Response',axis=1))]
     os.makedirs(os.path.dirname("logs/logs.txt"), exist_ok=True)

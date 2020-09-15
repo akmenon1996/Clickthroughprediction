@@ -5,6 +5,12 @@ warnings.filterwarnings('ignore')
 
 
 def data_engineer(data):
+    """
+    :param data: Feature engineered data.
+    :return: Oversampled data split into test and train sets.
+    Performs oversampling of undersampled data - in our case, the class which is that of people not responding to the
+    advertisement.
+    """
     X = data.drop(['Response'], axis=1)
     y = data['Response']
     x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
