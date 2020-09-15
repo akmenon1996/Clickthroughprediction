@@ -1,16 +1,5 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import os
-import seaborn as sns
-import sklearn as skl
 from imblearn.over_sampling import SMOTE
-from scipy.stats import norm
-import statsmodels.api as sm
-from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split,cross_validate
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import confusion_matrix, classification_report
 import warnings
 warnings.filterwarnings('ignore')
 

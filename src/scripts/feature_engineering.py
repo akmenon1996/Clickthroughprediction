@@ -1,12 +1,4 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import os
-import seaborn as sns
-import sklearn as skl
-from imblearn.over_sampling import SMOTE
-from scipy.stats import norm
-import statsmodels.api as sm
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 import warnings
