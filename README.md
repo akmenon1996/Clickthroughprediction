@@ -50,7 +50,7 @@ cd src/scripts
 python train_model.py <filename>
 ```
 
-[Output](media/result.gif)
+
 
 ### To predict on new data after training. 
 ```console
@@ -60,4 +60,4 @@ python {prog_name} <filename> <model_filename>
 
 The resulting log with the proabilities will get saved in the logs folder under /src/scripts. 
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Output](media/result.gif)
