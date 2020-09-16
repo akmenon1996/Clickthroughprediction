@@ -24,10 +24,9 @@ def main():
     x_train_res, y_train_res, x_test, y_test = data_engineer(feature_engineered_data)
     print(colored("########PERFORMING DATA MODELLING########",'blue'))
     model_file = modelling(x_train_res, y_train_res, x_test, y_test)
-    print(colored("########PREDICTING SAMPLE DATA########",'blue'))
     sample_data = data.sample(3000)
     predict(sample_data,model_file)
-    print(colored("Finished. Find logs in the logs folder!",'blue'))
+
 
 
 if __name__ == "__main__":

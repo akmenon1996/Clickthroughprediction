@@ -14,14 +14,28 @@ def main():
     filename = sys.argv[1]
     model = sys.argv[2]
     data = pd.read_csv(filename)
-    predict(data)
+    predict(data,model)
 
 def predict(data,model):
+    """
+
+    :param data: Data to be predicted in the pandas format.
+    :param model: Filepath to the trained model.
+    :return: None
+    This function used the loaded model to make predictions
+    on the click probability of the data and store as a log file.
+    """
+    print(colored("########PREDICTING DATA########", 'blue'))
     feature_engineered_data = feature_engineer(data)
     xgboost_model = joblib.load(model)
-    data['Click_Probability'] = [i[1] for i in xgboost_model.predict_proba(feature_engineered_data.drop('Response',axis=1))]
+    # Adding Click Probability as new column.
+    data['Click_Probability'] = [i[1] for i in
+                                 xgboost_model.predict_proba(
+                                     feature_engineered_data.drop('Response',axis=1))]
     os.makedirs(os.path.dirname("logs/logs.txt"), exist_ok=True)
     data.to_csv('logs/results.csv', index=False)
+    print(colored("Finished. \n"
+                  "Find logs in the logs folder!", 'blue'))
 
 if __name__ == "__main__":
     global usage

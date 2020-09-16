@@ -5,6 +5,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score
 from termcolor import colored
+from math import sqrt
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -19,7 +20,7 @@ def xgboost_classifier(x_train_res, y_train_res, x_test, y_test):
     Creates XGBoost Classification model and prints Confidence Interval.
     """
     xgbc = XGBClassifier()
-    xgbc.fit(x_train_res, y_train_res)
+    xgbc.fit(x_train_res, y_train_res) # Fitting the XGBoost model.
     xgbc_pred = xgbc.predict(x_test)
     print(confusion_matrix(xgbc_pred, y_test))
     print('Accuracy score:', accuracy_score(xgbc_pred, y_test))
@@ -28,7 +29,6 @@ def xgboost_classifier(x_train_res, y_train_res, x_test, y_test):
     print('Cross validation test_score', cross_val_score_xgbc['test_score'].mean())
     os.makedirs(os.path.dirname("models/models.txt"),exist_ok=True)
     filename = "models/xgboost_classifier.model"
-    from math import sqrt
     interval = 1.96 * sqrt((cross_val_score_xgbc['test_score'].mean() *
                             (1 - cross_val_score_xgbc['test_score'].mean())
                             )/y_train_res.shape[0]) #Binomial Proportions Confidence Interval
@@ -41,7 +41,7 @@ def xgboost_classifier(x_train_res, y_train_res, x_test, y_test):
 
 def modelling(x_train_res, y_train_res, x_test, y_test):
     model_file = xgboost_classifier(x_train_res,y_train_res, x_test, y_test)
-    print("Done!")
+    print(colored("Done!",'green'))
     return model_file
 
 
