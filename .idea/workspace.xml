@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cba92da3-cd12-4de6-b3d9-1b86f7d19356" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebooks/data_viz.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebooks/data_viz.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebooks/modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebooks/modelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/modelling.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/modelling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/precisionvsrecall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notebooks/data_engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebooks/data_engineering.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600024725691</updated>
-      <workItem from="1600024736880" duration="19288000" />
+      <workItem from="1600024736880" duration="19906000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Initial Commit&quot;">
       <created>1600024963115</created>
@@ -138,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600200082499</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&quot;Provided better comments for code and viz.&quot;">
+      <created>1600273502951</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600273502951</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +158,8 @@
     <MESSAGE value="&quot;Updated gitignore&quot;" />
     <MESSAGE value="&quot;Updated scripts and confidence interval to modelling notebook.&quot;" />
     <MESSAGE value="&quot;Updated README.md&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Updated README.md&quot;" />
+    <MESSAGE value="&quot;Provided better comments for code and viz.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Provided better comments for code and viz.&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2104" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600024803898">
@@ -170,11 +174,11 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2378" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600186354254" />
-    <state x="2219" y="124" key="CommitChangelistDialog2" timestamp="1600200082285">
+    <state x="2219" y="124" key="CommitChangelistDialog2" timestamp="1600273502789">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2219" y="116" key="CommitChangelistDialog2/1680.0.1920.1006/0.23.1680.1027/-1920.23.1920.1057@1680.0.1920.1006" timestamp="1600096994247" />
-    <state x="2219" y="124" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600200082285" />
+    <state x="2219" y="124" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600273502789" />
     <state x="2219" y="124" key="CommitChangelistDialog2/1680.0.1920.1080/0.23.1680.1027/-1920.23.1920.1057@1680.0.1920.1080" timestamp="1600183583001" />
     <state x="2481" y="444" key="Github.ShareDialog" timestamp="1600024867788">
       <screen x="1680" y="0" width="1920" height="1080" />
@@ -188,11 +192,11 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2149" y="179" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600025166918" />
-    <state x="2240" y="280" key="Vcs.Push.Dialog.v2" timestamp="1600200083885">
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2" timestamp="1600273504676">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2240" y="261" key="Vcs.Push.Dialog.v2/1680.0.1920.1006/0.23.1680.1027/-1920.23.1920.1057@1680.0.1920.1006" timestamp="1600096999414" />
-    <state x="2240" y="280" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600200083885" />
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050/-1920.0.1920.1080@1680.0.1920.1080" timestamp="1600273504676" />
     <state x="2240" y="280" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.23.1680.1027/-1920.23.1920.1057@1680.0.1920.1080" timestamp="1600183584849" />
   </component>
 </project>
